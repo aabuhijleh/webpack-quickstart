@@ -1,0 +1,30 @@
+{
+  "name": "webpack-quickstart",
+  "version": "1.0.0",
+  "description": "a simple vanilla JavaScript webpack template",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "webpack",
+    "typescript"
+  ],
+  "author": "aabuhijleh@asaltech.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
