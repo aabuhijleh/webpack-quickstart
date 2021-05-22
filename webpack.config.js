@@ -6,7 +6,7 @@ const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 const isProd = process.env.NODE_ENV === "production";
 
 const config = {
-  entry: "./src/index.ts",
+  entry: "./src/index.tsx",
   module: {
     rules: [
       {
@@ -26,7 +26,7 @@ const config = {
   },
   plugins: [
     new ESLintPlugin({ extensions: ["tsx", "ts", "js"], failOnWarning: true }),
-    new HtmlPlugin({ template: "./public/index.html" }),
+    new HtmlPlugin({ template: "./src/index.html" }),
   ],
   devServer: {
     port: 9876,
@@ -34,8 +34,8 @@ const config = {
     hot: true,
     compress: true,
     overlay: {
-      warnings: false,
-      errors: false,
+      warnings: true,
+      errors: true,
     },
     stats: "errors-warnings",
   },
