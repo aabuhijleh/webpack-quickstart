@@ -1,6 +1,6 @@
-# Webpack Quickstart
+# 🚀 Webpack TypeScript Quickstart
 
-> a simple vanilla JavaScript webpack template
+> a simple TypeScript Webpack template
 
 ## Usage
 
@@ -15,9 +15,8 @@ $ npm start
 $ npm run build
 ```
 
-**Note:** to use TypeScript in this project, use this webpack config file `webpack.config.typescript.js` instead of `webpack.config.js` and change the extension of the JavaScript files in `src` from `.js` to `.ts`
-
 ## References
 
 - [Webpack documentaion](https://webpack.js.org/concepts/)
 - [TSConfig Reference](https://www.typescriptlang.org/tsconfig)
+- [Configuring ESLint](https://eslint.org/docs/user-guide/configuring/)
