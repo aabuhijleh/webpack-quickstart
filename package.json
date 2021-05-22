@@ -2,7 +2,6 @@
   "name": "webpack-quickstart",
   "version": "1.0.0",
   "description": "a simple vanilla JavaScript webpack template",
-  "main": "index.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "start": "cross-env NODE_ENV=development webpack serve",
