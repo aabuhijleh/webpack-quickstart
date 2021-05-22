@@ -1,4 +1,4 @@
-# 🚀 Webpack TypeScript Quickstart
+# 🚀 Webpack TypeScript Quick Start
 
 > a simple TypeScript Webpack template
 
