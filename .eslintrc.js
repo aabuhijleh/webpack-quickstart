@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint"],
   rules: {
+    "react/prop-types": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "no-restricted-imports": [
       "error",
